@@ -15,7 +15,7 @@
 
 <body>
 
-  <!-- Inicio header -->
+  <!-- Início cabeçalho -->
   <header class="header">
 
     <section class="flex">
@@ -30,17 +30,18 @@
       </form>
       <!-- /.search-form --------------------------------------------->
 
+      <!-- Icones --------------------------------------------->
       <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
         <div id="search-btn" class="fas fa-search"></div>
         <div id="user-btn" class="fas fa-user"></div>
         <div id="toggle-btn" class="fas fa-sun"></div>
       </div>
+      <!-- Icones --------------------------------------------->
 
       <!-- Perfil ----------------------------------------------------->
       <div class="profile">
         <img src="../images/pic-1.jpg" alt="">
-
         <h3>nome</h3>
         <span>cargo: estudante</span>
         <a href="profile.php" class="btn">Abrir perfil</a>
@@ -48,16 +49,38 @@
           <a href="login.php" class="option-btn">Login</a>
           <a href="register.php" class="option-btn">Registrar</a>
         </div>
-
       </div>
       <!-- /Perfil ---------------------------------------------------->
 
-    </section>
-
+    </section> <!-- /.flex -->
   </header>
+  <!-- /Fim cabeçalho  -->
 
 
-  <!--\ Fim header  -->
+  <!-- Início Barra lateral (sidebar) -->
+  <div class="side-bar">
+
+    <!-- Perfil Sidebar----------------------------------------------------->
+    <div class="profile">
+      <img src="../images/pic-1.jpg" alt="">
+      <h3>nome</h3>
+      <span>cargo: estudante</span>
+      <a href="profile.php" class="btn">Abrir perfil</a>
+    </div>
+    <!-- /Perfil Sidebar ---------------------------------------------------->
+
+    <!-- navbar ---------------------------------------------------->
+    <nav class="navbar">
+      <a href="home.php"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.php"><i class="fas fa-question"></i><span>sobre nós</span></a>
+      <a href="courses.php"><i class="fas fa-graduation-cap"></i><span>cursos</span></a>
+      <a href="teachers.php"><i class="fas fa-chalkboard-user"></i><span>professores</span></a>
+      <a href="contact.php"><i class="fas fa-headset"></i><span>contato</span></a>
+    </nav>
+    <!-- /navbar ---------------------------------------------------->
+
+    <!-- /Fim Barra lateral (sidebar) -->
+  </div>
 
 
   <!-- arquivo js customizado -->

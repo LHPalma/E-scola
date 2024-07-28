@@ -79,8 +79,25 @@
     </nav>
     <!-- /navbar ---------------------------------------------------->
 
-    <!-- /Fim Barra lateral (sidebar) -->
   </div>
+  <!-- /Fim Barra lateral (sidebar) -->
+  
+  
+  
+  
+  <!-- Ínicio rodapé -->
+
+  <footer class="footer">
+
+  &copy copyright @ 2024 feito por <span>Mr. Web Designer</span> e reproduzido por <span>Luiz Palma</span>
+
+  </footer>
+
+
+  <!-- /Fim rodapé -->
+
+
+
 
 
   <!-- arquivo js customizado -->

@@ -114,8 +114,13 @@ section {
 	display: flex;
 	gap: 1.5rem;
 }
+
+#search-btn {
+	display: none;
+}
 /* /Botões -----------------------------------------------*/
 
+/* Cabeçalho -----------------------------------------------*/
 .header {
 	background-color: var(--white);
 	border-bottom: var(--border);
@@ -220,8 +225,10 @@ section {
 		} /* /.profile */
 	} /* .flex */
 } /* /.header */
+/* /Cabeçalho -----------------------------------------------*/
 
-/* sidebar --------------------------------------------------------- */
+
+/* Barra Lateral --------------------------------------------------------- */
 .side-bar {
 	position: fixed;
 	top: 0;
@@ -281,11 +288,33 @@ section {
 	} /* /.navbar */
 } /* /.sidebar */
 
-/* /sidebar -------------------------------------------------------- */
+/* /Barra Lateral -------------------------------------------------------- */
 
-#search-btn {
-	display: none;
+
+/* Rodapé -------------------------------------------------------- */
+.footer {
+	position: sticky;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: var(--white);
+	border-top: var(--border);
+	padding: 2.5rem 2rem;
+	text-align: center;
+	color: var(--black);
+	font-size: 2rem;
+	margin-top: 2rem;
+	z-index: 1000;
+
+	& span {
+		color: var(--main-color);
+	}
 }
+/* /Rodapé -------------------------------------------------------- */
+
+
+
+
 
 /* media queries */
 @media (max-width: 991px) {
